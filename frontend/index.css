@@ -1,0 +1,21 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.bg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url("IMG/fondo.jpg");
+    color: #ffff;
+}
+
+tr {
+    background-color: #FFFFFF;
+}
