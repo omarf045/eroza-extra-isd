@@ -41,9 +41,9 @@
 
                 let key_spanish = spanish[key]
 
-                div.innerHTML += `<h2 class="fw-bold">${key_spanish}</h2>`
+                div.innerHTML += `<h2 class="fw-bold text-white">${key_spanish}</h2>`
 
-                var HTML_TABLE = `<table class="table table-striped">   
+                var HTML_TABLE = `<table class="table table-dark table-striped">   
                 <tbody>`
 
                 for (const [key2, val] of Object.entries(data[key])) {
@@ -69,11 +69,11 @@
 
 <body>
 
-    <div class="bg">
+    <div class="bg-dark">
         <header>
             <nav>
                 <div class="container">
-                    <h1>EROZA EXTRA ISD</h1>
+                    <h1 class="text-white">EROZA EXTRA ISD</h1>
                 </div>
             </nav>
         </header>
